@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(2, 2, 32);
+    color: aliceblue;
+    font: 14pt Tahoma;
+}
+
+div{
+    width: 50vw;
+
+}
+
+h1{
+    width: 422px;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 22px;  
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255 , .1);
+}
+
+
+#newTask, ul, #optionsList{
+    width: 50%;
+    background: transparent;
+    color: white;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255 , .1);
+    border: 0;
+    outline: 0;
+    padding: 22px;
+}
+
+
+#addTask{
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 22px;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255 , .1);
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.removeButton{
+    display: inline-block;
+    background: transparent;
+    color: red;
+    border: 0;
+    outline: 0;
+    padding: 22px;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255 , .1);
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.elementSpan{
+    position: absolute;
+    width: 50vw;
+    display: inline-block;
+    background: transparent;
+    color: red;
+    border: 0;
+    outline: 0;
+    padding: 22px;
+    box-shadow: 0 6px 10px 0 rgba(255, 255, 255 , .1);
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+ul li.ongoing{
+    list-style-type: '☐';
+    cursor: pointer;
+    text-indent: 10px;   
+}
+
+ul li.done{
+    list-style-type: '☑';
+    cursor: pointer;
+    text-indent: 10px;
+    text-decoration: line-through;
+    color: darkgray;
+}
